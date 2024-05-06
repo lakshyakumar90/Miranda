@@ -178,7 +178,7 @@ html, body{
     height: 70vh;
     background-color: #1C1B19;
     width: 96vw;
-    margin: 2vw;
+    margin: 2vw 2vw 0 2vw;
     padding: 0 1vw;
     overflow: hidden;
 }
@@ -190,4 +190,127 @@ html, body{
     font-stretch: condensed;
     font-weight: 100;
     letter-spacing: -10px;
+}
+
+#page2{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #c4bcb3;
+    position: relative;
+    display: flex;
+    padding: 4vw 2vw;
+    justify-content: space-between;
+}
+
+#page2-left{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    padding: 1vw 3vw 1vw 0;
+    border-right: 1.5px solid #666;
+}
+
+#page2-left h2{
+    font-family: canopee;
+    font-size: 7.7vw;
+    font-weight: 400;
+    letter-spacing: -3px;
+    color: #1C1C1A;
+}
+
+#page2-left h1{
+    font-family: canopee;
+    font-size: 13.4vw;
+    font-weight: 400;
+    line-height: 10vw;
+    letter-spacing: -3px;
+    color: #1C1C1A;
+}
+
+#page2-left #image-container{
+    height: 75vh;
+    width: 100%;
+    overflow: hidden;
+    margin: 2vw 0;
+}
+
+#page2-left #image-container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#page2-left p{
+    font-family: editorial;
+    font-size: 2.25vw;
+    line-height: 2.7vw;
+    text-align: left;
+    letter-spacing: -1px;
+    color: #31312f;
+}
+
+#page2-left p::first-letter{
+    font-family: canopee;
+    font-feature-settings: "ss03";
+    float: left;
+    font-size: 7vw;
+    line-height: 5vw;
+    margin: .7vw 1vw 1vw 0vw;
+    background-color: #1d1d1b;
+    color: #cdc6be;
+    padding: .75vw .4vw .5vw .5vw;
+}
+
+#page2-right{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    padding: 0vw 0vw 2vw 3vw;
+}
+
+#page2-right #image-div{
+    height: 80vh;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 3vw;
+}
+
+#page2-right #image-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#page2-right h1{
+    font-family: canopee;
+    font-size: 8vw;
+    letter-spacing: -4px;
+    font-weight: 100;
+}
+
+#page3{
+    height: 55vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #C2BAB1;
+    padding: 0 2vw;
+}
+
+#page3 h1{
+    font-family: canopee;
+    font-size: 29vw;
+    letter-spacing: -15px;
+    font-weight: 100;
+    background-color: #1C1C19;
+    color: #C5BDB3;
+    line-height: 26vw;
+    padding: 0 3vw 0 1.6vw;
+    width: fit-content;
+}
+
+#page4{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #C2BAB1;
 }
