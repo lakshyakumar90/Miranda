@@ -1,0 +1,193 @@
+@font-face {
+    font-family: editorial;
+    src: url(./Assets/Fonts/Editorial.ttf);
+}
+
+@font-face {
+    font-family: canopee;
+    src: url(./Assets/Fonts/Canopee.ttf);
+}
+
+@font-face {
+    font-family: domaine;
+    src: url(./Assets/Fonts/Domaine.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    overflow-x: hidden;
+}
+
+#page1{
+    min-height: 100vh;
+    width: 100vw;
+    background-color: #c4bcb3;
+    position: relative;
+}
+
+#nav{
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid #666;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2vw;
+}
+
+#nav h1{
+    width: 30%;
+    font-size: 0.9vw;
+    font-weight: 300;
+    font-family: editorial;
+}
+
+#nav img{
+    height: 19px;
+    width: 30%;
+}
+
+#nav i{
+    width: 30%;
+    text-align: right;
+    font-size: 1.4vw;
+    font-weight: 100;
+}
+
+#marque{
+    height: 43vh;
+    padding: 0 2vw;
+    overflow-x: auto;
+    margin-top: 2vw;
+}
+
+#marque::-webkit-scrollbar{
+    display: none;
+}
+
+#container{
+    position: relative;
+    height: 100%;
+    display: flex;
+    width: fit-content;
+    gap: 4vw;
+}
+
+.elem{
+    height: 100%;
+    position: relative;
+    width: 28vw;
+    cursor: pointer;
+}
+
+.elem #image-div{
+    height: 52%;
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid #000;
+}
+
+.elem #image-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all ease-in-out 0.4s;
+}
+
+.elem h1{
+    width: 100%;
+    font-family: domaine;
+    font-size: 1.6vw;
+    margin: 1vw 0 0.7vw 0;
+    font-weight: 900;
+}
+
+.elem h1 span{
+    padding: 0.12vw 0.34vw;
+    text-transform: uppercase;
+    background-color: #B63C12;
+    border-radius: 5px;
+    margin-left: 0.5vw;
+    font-size: 1.5vw;
+    font-family: domaine;
+    color: #ffffffa6;
+    font-weight: 100;
+    margin-top: -1vw;
+}
+
+.elem p{
+    width: 100%;
+    font-family: editorial;
+    font-size: 1.2vw;
+    width: 94%;
+    color: #1d1d1b;
+}
+
+.elem:hover img{
+    scale: 1.1;
+}
+
+#center-elem{
+    text-align: center;
+    border-left: 2px solid #888888;
+    border-right: 2px solid #888888;
+}
+
+#center-elem h1{
+    font-size: 5vw;
+    font-family: canopee;
+    font-weight:200;
+    margin-bottom: 1.2vw;
+    letter-spacing: -2px;
+}
+
+#center-elem h2{
+    font-family: editorial;
+    font-size: 2.4vw;
+    color: #1d1d1b;
+    font-weight: 400;
+    letter-spacing: -1px;
+    line-height: 2.7vw;
+    margin-bottom: 2vw;
+    margin-top: 1vw;
+}   
+
+#center-elem h3{
+    font-size: 1.2vw;
+    font-family: editorial;
+    color: #1d1d1b;
+    font-weight: 500;
+}
+
+#center-elem h3 span{
+    font-weight: 700;
+    color: black;
+}
+
+#header{
+    height: 70vh;
+    background-color: #1C1B19;
+    width: 96vw;
+    margin: 2vw;
+    padding: 0 1vw;
+    overflow: hidden;
+}
+
+#header h1{
+    color: #C2BAB1;
+    font-family: canopee;
+    font-size: 35vw;
+    font-stretch: condensed;
+    font-weight: 100;
+    letter-spacing: -10px;
+}
