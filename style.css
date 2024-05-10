@@ -24,8 +24,16 @@ html, body{
     width: 100%;
 }
 
+#super-main{
+    overflow-x: hidden;
+    position: relative;
+    background-color: #31312f;
+}
+
 #main{
     overflow-x: hidden;
+    position: relative;
+    background-color: #C2BAB1;
 }
 
 #page1{
@@ -313,4 +321,555 @@ html, body{
     min-height: 100vh;
     width: 100%;
     background-color: #C2BAB1;
+    display: flex;
+    padding: 5vw 2vw 5vw 2vw;
+}
+
+#page4-left{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 65%;
+    border-right: 1px solid #413e3e;
+}
+
+#page4-left-part1{
+    display: flex;
+    height: 42vh;
+    width: 100%;
+}
+
+#page4-left-part1-box1{
+    width: 43%;
+    padding-right: 2vw;
+    border-right: 1px solid #413e3e;
+}
+
+#page4-left-part1-box1 h1{
+    font-family: domaine;
+    font-size: 4vw;
+    font-weight: 100;
+    letter-spacing: -2px;
+    font-stretch: extra-expanded;
+}
+
+#page4-left-part1-box1 h2{
+    font-family: editorial;
+    font-weight: 100;
+    color: #272725;
+    font-size: 2.9vw;
+    letter-spacing: -2px;
+    padding: 1.4vw 0 1.8vw 0;
+    line-height: 3.4vw;
+}
+
+#page4-left-part1-box1 h4{
+    font-family: editorial;
+    font-weight: 100;
+}
+
+#page4-left-part1-box1 span{
+    font-family: domaine;
+    font-weight: 900;
+    font-size: 1.4vw;
+}
+
+#page4-left-part1-box2{
+    width: 60%;
+    padding: 0 3vw;
+}
+
+#page4-left-part1-box2 #image-div{
+    height: 56%;
+}
+
+#page4-left-part2{
+    height: 90vh;
+    width: 100%;
+    padding: 4vw 3vw 0 0;
+    overflow: hidden;
+}
+
+#page4-left-part2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#page4-right{
+    width: 35%;
+    padding: 0 0 1vw 3vw;
+}
+
+#page4-right h2{
+    font-family: canopee;
+    font-weight: 100;
+    letter-spacing: -5px;
+    font-size: 7vw;
+}
+
+#page4-right h1{
+    font-family: canopee;
+    font-weight: 100;
+    letter-spacing: -5px;
+    font-size: 13.4vw;
+    line-height: 10vw;
+}
+
+#page4-right p{
+    font-family: editorial;
+    font-weight: 100;
+    font-size: 2.21vw;
+    line-height: 2.6vw;
+    padding: 2vw 0;
+    letter-spacing: -1px;
+    color: #413e3e;
+}
+
+
+#page4-right p::first-letter{
+    font-family: canopee;
+    font-feature-settings: "ss03";
+    float: left;
+    font-size: 7vw;
+    line-height: 5vw;
+    margin: .7vw 1vw 1vw 0vw;
+    background-color: #1d1d1b;
+    color: #cdc6be;
+    padding: .75vw .4vw .5vw .5vw;
+}
+
+#page4-right #arrow{
+    height: 11vw;
+    width: 27vw;
+    border: 1px solid #31312f;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+#page4-right #arrow img{
+    height: 3vw;
+    transform: translateX(-130%);
+    transition: all 0.6s ease;
+}
+
+#page4-right #arrow h1{
+    font-size: 5vw;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(-29%);
+    transition: all 0.6s ease;
+}
+
+#page4-right #arrow:hover img{
+    transform: translateX(77%);
+}
+
+#page4-right #arrow:hover h1{
+    transform: translateX(100%);
+}
+
+#awards-section{
+    height: 30vh;
+    width: 96vw;
+    border-top: 1px solid #31312f;
+    border-bottom: 1px solid #31312f;
+    background-color: #C2BAB1;
+    margin: 0 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4vw;
+}
+
+.award{
+    height: 100%;
+    width: 24%;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+.award .name{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.award .name h2{
+    font-family: editorial;
+    font-weight: 100;
+    font-size: 1.6vw;
+}
+
+.award .name h1{
+    font-family: canopee;
+    font-size: 5vw;
+    color: #1b1b1a;
+    font-weight: 100;
+}
+
+.award .rank{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.award .rank h1{
+    font-family: editorial;
+    font-size: 9vw;
+    color: #1b1b1a;
+    font-weight: 600;
+}
+
+#page5{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #C2BAB1;
+    display: flex;
+    padding: 0 2vw;
+    flex-direction: column;
+    margin-bottom: 3vw;
+}
+
+#page5-part1{
+    display: flex;
+    height: 48vw;
+    margin-bottom: 1vw;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#page5-part1-left{
+    display: flex;
+    flex-direction: column;
+    width: 52%;
+    padding-right: 3vw;
+    gap: 1vw;
+}
+
+#page5-part1-left #top-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#page5-part1-left #top-div img{
+    width: 13vw;
+    height: 22.7vw;
+    margin-top: -0.66vw;
+    border: 1px solid #413e3e;
+}
+
+#page5 h1{
+    font-family: canopee;
+    font-weight: 100;
+    font-size: 31vw;
+    line-height: 24vw;
+    letter-spacing: -1.5vw;
+    text-align: center;
+    color: #181817;
+}
+
+#page5-part1-left #top-div h1{
+    font-family: canopee;
+    font-weight: 100;
+    font-size: 32vw;
+    letter-spacing: -1.5vw;
+    text-align: center;
+    color: #181817;
+    margin-right: 2vw;
+}
+
+#page5-part1-left #bottom-div h1{
+    margin-right: 2vw;
+}
+
+#page5-part1-right{
+    width: 48%;
+    height: 100%;
+}
+
+#page5-part1-right img{
+    width: 100%;
+    height: 97.9%;
+    object-fit: cover;
+    border: 1px solid #413e3e;
+}
+
+#page5-part2{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#page5-part2 #top-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page5-part2 #top-div img{
+    width: 22.5vw;
+    height: 22vw;
+    margin-top: -0.66vw;
+    margin-left: -1.6vw;
+    border: 1px solid #413e3e;
+}
+
+#page5-part2 #top-div h1{
+    font-size: 29vw;
+    margin-left: 1vw;   
+}
+
+#page5-part2 #bottom-div{
+    width: 100%;
+    display: flex;
+}
+
+#page5-part2 #bottom-div #artisan{
+    height: 22vw;
+    background-color: #1C1B19;
+    width: 153%;
+    padding: 0 1vw;
+    overflow: hidden;
+}
+
+#page5-part2 #bottom-div #artisan h1{
+    color: #C2BAB1;
+    font-family: canopee;
+    font-size: 24.5vw;
+    font-stretch: condensed;
+    font-weight: 100;
+    letter-spacing: -10px;
+    margin-top: -0.6vw;
+    margin-left: -0.6vw;
+}
+
+#page5-part2 #bottom-div #description{
+    height: 100%;
+    width: 70%;
+    margin-left: 2vw;
+    margin-top: 0.7vw;
+}
+
+#page5-part2 #bottom-div #description p{
+    font-family: editorial;
+    font-weight: 100;
+    font-size: 2vw;
+    letter-spacing: -0.5px;
+    color: #413e3e;
+    margin-top: -0.6vw;
+}
+
+#page5-part2 #bottom-div #description h2{
+    font-family: canopee;
+    font-weight: 100;
+    font-size: 7.7vw;
+    letter-spacing: -0.5px;
+    color: #181717;
+    margin-top: -0.6vw;
+}
+
+#page6{
+    min-height: 100vh;
+    width: 100%;
+    padding: 0 2vw;
+}
+
+#page6 #cards-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2vw;
+}
+
+#page6 #cards-section .card-border{
+    padding: 1vw;
+    border:3px solid #000;
+    border-radius: 20px;
+    transition: all ease 0.3s;
+}
+
+#page6 #cards-section .card{
+    height: 23vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1.4vw;
+    border: 2px dashed #2d2b2b;
+    border-radius: 18px;
+}
+
+#page6 #cards-section .card .description{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+#page6 #cards-section .card .description p{
+    font-family: editorial;
+    font-size: 2.3vw;
+    letter-spacing: -1px;
+    color: #413e3e;
+}
+
+#page6 #cards-section .card .description .person{
+    display: flex;
+    gap: 1.2vw;
+}
+
+#page6 #cards-section .card .description .person .img{
+    height: 4.5vw;
+    width: 4.5vw;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid #1d1d1b;
+}
+
+#page6 #cards-section .card .description .person .img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#page6 #cards-section .card .description .person .name{
+    display: flex;
+    flex-direction: column;
+}
+
+#page6 #cards-section .card .description .person .name h3{
+    font-family: canopee;
+    font-size: 2.3vw;
+    letter-spacing: -1px;
+    color: #1a1919;
+}
+
+#page6 #cards-section .card .description .person .name h4{
+    font-family: editorial;
+    font-size: 1.7vw;
+    letter-spacing: -1px;
+    color: #413e3e;
+}
+
+.card-border:hover{
+    background-color: #B7ADA2;
+}
+
+#page6 #header-like{
+    display: flex;
+    margin: 4vw 0;
+    gap: 5.3vw;
+    height: 26vw;
+    padding: 3vw 0;
+    border-top: 2px solid #888;
+}
+
+#footer{
+    width: 100%;
+}
+
+#footer #create-together{
+    width: 100%;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    border-top: 2px solid #161614;
+    border-bottom: 2px solid #161614;
+    padding: 1.9vw 0 1.6vw 0;
+}
+
+#footer #create-together h5{
+    font-family: editorial;
+    font-size: 5vw;
+    letter-spacing: -1px;
+    font-weight: 200;
+    color: #101010;
+    display: inline-block;
+    margin-right: 2vw;
+    animation-name: scroll;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+#footer #create-together::-webkit-scrollbar{
+    display: none;
+}
+
+#footer #create-together span{
+    color: #B7ADA2;
+    font-family: canopee;
+    background-color: #161614;
+    padding: 0 0.5vw;
+}
+
+@keyframes scroll {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-100% - 2vw));
+    }
+}
+
+#create-together:hover h5{
+    animation-play-state: paused;
+}
+
+#footer #bottom-part{
+    margin: 2vw 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2vw;
+}
+
+#footer #bottom-part #comapnay-name{
+    display: flex;
+    gap: 0.7vw;
+    align-items: center;
+}
+
+#footer #bottom-part #comapnay-name h6{
+    font-family: canopee;
+    font-size: 1.6vw;
+    letter-spacing: -1px;
+    color: #222121;
+}
+
+#footer #bottom-part #comapnay-name img{
+    height: 2vw;
+}
+
+#footer #bottom-part #comapnay-name p{
+    font-family: editorial;
+    font-size: 1.2vw;
+    letter-spacing: -1px;
+    color: #222121;
+}
+
+#footer #bottom-part #links-box{
+    display: flex;
+    gap: 1vw;
+}
+
+#footer #bottom-part #links-box a{
+    text-decoration: none;
+    font-family: canopee;
+    color: #161614;
+    font-size: 1.6vw;
+    gap: 1vw;
 }
