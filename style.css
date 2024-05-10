@@ -44,7 +44,7 @@ html, body{
 }
 
 #nav{
-    height: 70px;
+    height: 5vw;
     width: 100%;
     border-bottom: 1px solid #666;
     display: flex;
@@ -73,7 +73,7 @@ html, body{
 }
 
 #marque{
-    height: 43vh;
+    height: 20vw;
     padding: 0 2vw;
     overflow-x: auto;
     margin-top: 2vw;
@@ -183,7 +183,7 @@ html, body{
 }
 
 #header{
-    height: 70vh;
+    height: 36vw;
     background-color: #1C1B19;
     width: 96vw;
     margin: 2vw 2vw 0 2vw;
@@ -236,7 +236,7 @@ html, body{
 }
 
 #page2-left #image-container{
-    height: 75vh;
+    height: 35vw;
     width: 100%;
     overflow: hidden;
     margin: 2vw 0;
@@ -277,7 +277,7 @@ html, body{
 }
 
 #page2-right #image-div{
-    height: 80vh;
+    height: 42vw;
     width: 100%;
     overflow: hidden;
     margin-bottom: 3vw;
@@ -297,7 +297,7 @@ html, body{
 }
 
 #page3{
-    height: 55vh;
+    height: 25vw;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -335,7 +335,7 @@ html, body{
 
 #page4-left-part1{
     display: flex;
-    height: 42vh;
+    height: 19vw;
     width: 100%;
 }
 
@@ -384,7 +384,7 @@ html, body{
 }
 
 #page4-left-part2{
-    height: 90vh;
+    height: 41vw;
     width: 100%;
     padding: 4vw 3vw 0 0;
     overflow: hidden;
@@ -478,7 +478,7 @@ html, body{
 }
 
 #awards-section{
-    height: 30vh;
+    height: 15vw;
     width: 96vw;
     border-top: 1px solid #31312f;
     border-bottom: 1px solid #31312f;
@@ -496,6 +496,7 @@ html, body{
     display: flex;
     align-items: center;
     gap: 1vw;
+    margin-top: 1vw;
 }
 
 .award .name{
