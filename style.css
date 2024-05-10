@@ -24,16 +24,14 @@ html, body{
     width: 100%;
 }
 
-#super-main{
-    overflow-x: hidden;
-    position: relative;
-    background-color: #31312f;
-}
-
 #main{
     overflow-x: hidden;
     position: relative;
     background-color: #C2BAB1;
+}
+
+#loading-div{
+    background-color: #444;
 }
 
 #page1{

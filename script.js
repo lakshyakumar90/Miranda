@@ -26,9 +26,29 @@ ScrollTrigger.refresh();
 
 }
 
-locomotiveScroll();
+function loadingAnimation(){
+  var tl = gsap.timeline()
 
-const scroll = new LocomotiveScroll({
-      el: document.querySelector('#main'),
-      smooth: true
+tl.to("#loader",{
+    y:"100vh",
+    scale:0.6,
+    duration:0
 })
+tl.to("#loader",{
+    y:"-30vh",
+    duration:1,
+    delay:1
+})
+tl.to("#loader",{
+    y:"0vh",
+    rotate:-360,
+    scale:1,
+    duration:0.7
+})
+}
+
+locomotiveScroll();
+loadingAnimation();
+
+
+
